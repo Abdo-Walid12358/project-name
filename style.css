@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+div{
+    background: linear-gradient(to top right, #f4c4f3, #fc67fa);
+    padding: 3px;
+    border-radius: 5px;
+}
+input{
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+@media (width < 700px) {
+    h1 {
+         /* لو عرض الشاشه أقل من 700px فنصغر الخط */
+        font-size: 25px;
+    }
+}
